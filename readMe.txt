@@ -1,1 +1,0 @@
-This is a GitHub Owner Info List Display App
