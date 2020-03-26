@@ -28,6 +28,7 @@
 		5ED18988242C3CC2007E4B2B /* Location.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED18984242C3CC2007E4B2B /* Location.png */; };
 		5ED18989242C3CC2007E4B2B /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED18985242C3CC2007E4B2B /* photo.png */; };
 		5ED1898A242C3CC2007E4B2B /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ED18986242C3CC2007E4B2B /* user.png */; };
+		5ED1898D242C3EF9007E4B2B /* PersonInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED1898C242C3EF9007E4B2B /* PersonInfoController.m */; };
 		666311A97D3F1E41CF003039 /* libPods-githubInfoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1143513A3247D12B529F2437 /* libPods-githubInfoUITests.a */; };
 		82C1817545E2D2725F4AFE13 /* libPods-githubInfoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95180EDACFF451F17AC1D572 /* libPods-githubInfoTests.a */; };
 		F2163D027C371BA32212C76C /* libPods-githubInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D3D4542A8441E653D2E0EC /* libPods-githubInfo.a */; };
@@ -91,6 +92,8 @@
 		5ED18984242C3CC2007E4B2B /* Location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location.png; sourceTree = "<group>"; };
 		5ED18985242C3CC2007E4B2B /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		5ED18986242C3CC2007E4B2B /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		5ED1898B242C3EF9007E4B2B /* PersonInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonInfoController.h; sourceTree = "<group>"; };
+		5ED1898C242C3EF9007E4B2B /* PersonInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonInfoController.m; sourceTree = "<group>"; };
 		707B0BD63CEA60B8FE05B509 /* Pods-githubInfoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubInfoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-githubInfoTests/Pods-githubInfoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8773F7CCA10521F164F266E3 /* Pods-githubInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubInfo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-githubInfo/Pods-githubInfo.debug.xcconfig"; sourceTree = "<group>"; };
 		95180EDACFF451F17AC1D572 /* libPods-githubInfoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-githubInfoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,8 +161,6 @@
 				5ED18974242C3919007E4B2B /* Model */,
 				5ED18973242C390F007E4B2B /* ViewController */,
 				5ED18972242C38FC007E4B2B /* ImageSet */,
-				5ED18935242C35F1007E4B2B /* AppDelegate.h */,
-				5ED18936242C35F1007E4B2B /* AppDelegate.m */,
 				5ED18938242C35F1007E4B2B /* SceneDelegate.h */,
 				5ED18939242C35F1007E4B2B /* SceneDelegate.m */,
 				5ED1893E242C35F1007E4B2B /* Main.storyboard */,
@@ -203,8 +204,12 @@
 		5ED18973242C390F007E4B2B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				5ED18935242C35F1007E4B2B /* AppDelegate.h */,
+				5ED18936242C35F1007E4B2B /* AppDelegate.m */,
 				5ED1893B242C35F1007E4B2B /* EntranceController.h */,
 				5ED1893C242C35F1007E4B2B /* EntranceController.m */,
+				5ED1898B242C3EF9007E4B2B /* PersonInfoController.h */,
+				5ED1898C242C3EF9007E4B2B /* PersonInfoController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -460,6 +465,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED1893D242C35F1007E4B2B /* EntranceController.m in Sources */,
+				5ED1898D242C3EF9007E4B2B /* PersonInfoController.m in Sources */,
 				5ED18937242C35F1007E4B2B /* AppDelegate.m in Sources */,
 				5ED1897F242C3BFD007E4B2B /* SingleFileModel.m in Sources */,
 				5ED18948242C35F3007E4B2B /* main.m in Sources */,
