@@ -7,7 +7,7 @@
 //
 
 #import "EntranceController.h"
-
+#import "EntranceControllerCell.h"
 #define cellWidth [UIScreen mainScreen].bounds.size.width * 0.6
 #define cellHeight 80
 

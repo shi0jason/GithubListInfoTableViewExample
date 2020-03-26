@@ -20,6 +20,7 @@
 		5ED1896D242C372F007E4B2B /* libJSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED1896C242C372F007E4B2B /* libJSONModel.a */; };
 		5ED1896F242C372F007E4B2B /* libMBProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED1896E242C372F007E4B2B /* libMBProgressHUD.a */; };
 		5ED18971242C372F007E4B2B /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ED18970242C372F007E4B2B /* libSDWebImage.a */; };
+		5ED18979242C3B00007E4B2B /* EntranceControllerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED18977242C3B00007E4B2B /* EntranceControllerCell.m */; };
 		666311A97D3F1E41CF003039 /* libPods-githubInfoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1143513A3247D12B529F2437 /* libPods-githubInfoUITests.a */; };
 		82C1817545E2D2725F4AFE13 /* libPods-githubInfoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95180EDACFF451F17AC1D572 /* libPods-githubInfoTests.a */; };
 		F2163D027C371BA32212C76C /* libPods-githubInfo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D3D4542A8441E653D2E0EC /* libPods-githubInfo.a */; };
@@ -71,6 +72,8 @@
 		5ED1896C242C372F007E4B2B /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED1896E242C372F007E4B2B /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED18970242C372F007E4B2B /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED18977242C3B00007E4B2B /* EntranceControllerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntranceControllerCell.m; sourceTree = "<group>"; };
+		5ED18978242C3B00007E4B2B /* EntranceControllerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntranceControllerCell.h; sourceTree = "<group>"; };
 		707B0BD63CEA60B8FE05B509 /* Pods-githubInfoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubInfoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-githubInfoTests/Pods-githubInfoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8773F7CCA10521F164F266E3 /* Pods-githubInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubInfo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-githubInfo/Pods-githubInfo.debug.xcconfig"; sourceTree = "<group>"; };
 		95180EDACFF451F17AC1D572 /* libPods-githubInfoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-githubInfoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -202,6 +205,8 @@
 		5ED18976242C392A007E4B2B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5ED18978242C3B00007E4B2B /* EntranceControllerCell.h */,
+				5ED18977242C3B00007E4B2B /* EntranceControllerCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -426,6 +431,7 @@
 				5ED1893D242C35F1007E4B2B /* EntranceController.m in Sources */,
 				5ED18937242C35F1007E4B2B /* AppDelegate.m in Sources */,
 				5ED18948242C35F3007E4B2B /* main.m in Sources */,
+				5ED18979242C3B00007E4B2B /* EntranceControllerCell.m in Sources */,
 				5ED1893A242C35F1007E4B2B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
