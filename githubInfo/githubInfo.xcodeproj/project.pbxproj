@@ -156,13 +156,11 @@
 		5ED18934242C35F1007E4B2B /* githubInfo */ = {
 			isa = PBXGroup;
 			children = (
-				5ED18976242C392A007E4B2B /* View */,
+				5ED18972242C38FC007E4B2B /* ImageSet */,
+				5ED18973242C390F007E4B2B /* ViewController */,
 				5ED18975242C391E007E4B2B /* ViewModel */,
 				5ED18974242C3919007E4B2B /* Model */,
-				5ED18973242C390F007E4B2B /* ViewController */,
-				5ED18972242C38FC007E4B2B /* ImageSet */,
-				5ED18938242C35F1007E4B2B /* SceneDelegate.h */,
-				5ED18939242C35F1007E4B2B /* SceneDelegate.m */,
+				5ED18976242C392A007E4B2B /* View */,
 				5ED1893E242C35F1007E4B2B /* Main.storyboard */,
 				5ED18941242C35F3007E4B2B /* Assets.xcassets */,
 				5ED18943242C35F3007E4B2B /* LaunchScreen.storyboard */,
@@ -204,6 +202,8 @@
 		5ED18973242C390F007E4B2B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				5ED18938242C35F1007E4B2B /* SceneDelegate.h */,
+				5ED18939242C35F1007E4B2B /* SceneDelegate.m */,
 				5ED18935242C35F1007E4B2B /* AppDelegate.h */,
 				5ED18936242C35F1007E4B2B /* AppDelegate.m */,
 				5ED1893B242C35F1007E4B2B /* EntranceController.h */,
