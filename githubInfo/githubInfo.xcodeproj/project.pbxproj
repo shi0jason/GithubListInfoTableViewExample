@@ -642,7 +642,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Pods";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Pods",
+					"\"$CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$CONFIGURATION_BUILD_DIR/JSONModel\"",
+					"\"$CONFIGURATION_BUILD_DIR/AFNetworking\"",
+					"\"$CONFIGURATION_BUILD_DIR/MBProgressHUD\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jason.githubInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REZ_SEARCH_PATHS = "";
@@ -661,7 +667,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Pods";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Pods",
+					"\"$CONFIGURATION_BUILD_DIR/SDWebImage\"",
+					"\"$CONFIGURATION_BUILD_DIR/JSONModel\"",
+					"\"$CONFIGURATION_BUILD_DIR/AFNetworking\"",
+					"\"$CONFIGURATION_BUILD_DIR/MBProgressHUD\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = Jason.githubInfo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REZ_SEARCH_PATHS = "";
