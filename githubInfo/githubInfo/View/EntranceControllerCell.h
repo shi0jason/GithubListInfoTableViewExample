@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OwnerModel.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface EntranceControllerCell : UITableViewCell
@@ -15,6 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic) UIImageView *imageContainer;
 @property (strong, nonatomic) UILabel *titleContainer;
 
+
+//DataSet
+@property (nonatomic,strong) OwnerModel *data;
 
 @end
 

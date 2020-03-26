@@ -22,6 +22,25 @@
     [super prepareForReuse];
     _imageContainer.image = nil;
 }
+#pragma mark - Set Data
+- (void)setData:(OwnerModel *)data {
+    if (data) {
+        _data = data;
+        [self loadViewData];
+    }
+}
+- (void)loadViewData {
+    OwnerModel *model = _data;
+    if ([model isKindOfClass:[OwnerModel class]]) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.imageContainer sd_setImageWithURL:[NSURL URLWithString:model.avatar_url]
+                                   placeholderImage:[UIImage imageNamed:@"photo.png"]
+                                            options:SDWebImageRetryFailed|SDWebImageLowPriority
+                                          completed:nil];
+        });
+        [self.titleContainer setText:model.login];
+    }
+}
 #pragma mark - Initial Func
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];

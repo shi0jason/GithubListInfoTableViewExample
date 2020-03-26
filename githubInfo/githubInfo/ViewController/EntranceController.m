@@ -10,6 +10,7 @@
 #import "EntranceControllerCell.h"
 #import "OwnerModel.h"
 #import "TableViewDataViewModel.h"
+#import "PersonInfoController.h"
 #import <MBProgressHUD/MBProgressHUD.h>
 #define cellWidth [UIScreen mainScreen].bounds.size.width * 0.6
 #define cellHeight 80
@@ -105,7 +106,15 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     EntranceControllerCell *cell = [[EntranceControllerCell alloc] initWithFrame:CGRectMake(0, 0, cellWidth, 50)];
     OwnerModel *model = result[indexPath.row];
-//    [cell setData:model];
+    [cell setData:model];
     return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    //send "login"
+    OwnerModel *model = result[indexPath.row];
+    NSString * ownerLink = [NSString stringWithFormat:@"https://api.github.com/users/%@",model.login];
+    PersonInfoController *vc = [[PersonInfoController alloc] init];
+    vc.infoLink = ownerLink;
+    [self.navigationController pushViewController:vc animated:true];
 }
 @end
